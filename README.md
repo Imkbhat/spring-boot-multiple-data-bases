@@ -7,11 +7,11 @@ CREATE DATABASE schooldb;
 CREATE SCHEMA schooldb;
 
 
-schooldb=# INSERT INTO school VALUES(1, 'Konandur', 'National Independent PU Science Residential School');
+schooldb= INSERT INTO school VALUES(1, 'Konandur', 'National Independent PU Science Residential School');
 INSERT 0 1
-schooldb=# INSERT INTO school VALUES(2, 'MalaliMakki', 'Goverament High School, Malalimakki');
+schooldb= INSERT INTO school VALUES(2, 'MalaliMakki', 'Goverament High School, Malalimakki');
 INSERT 0 1
-schooldb=# INSERT INTO school VALUES(3, 'Demlapure', 'Goverament School, Demlapure');
+schooldb= INSERT INTO school VALUES(3, 'Demlapure', 'Goverament School, Demlapure');
 INSERT 0 1
 ===============================================================================================================================
 CREATE DATABASE studentdb;
@@ -20,7 +20,7 @@ CREATE SCHEMA studentdb;
 CREATE TABLE student(id integer, name character varying(30), age integer);
 ERROR:  relation "student" already exists(table already created by hibernate)
 
-studentdb=# \d student;
+studentdb= \d student;
                                   Table "studentdb.student"
  Column |          Type          | Collation | Nullable |               Default               
 --------+------------------------+-----------+----------+-------------------------------------
@@ -33,7 +33,7 @@ Indexes:
 
 INSERT INTO student VALUES(1,'Kiran',29);
 INSERT 0 1
-studentdb=# INSERT INTO student VALUES(1,28,'Ravi');
+studentdb= INSERT INTO student VALUES(1,28,'Ravi');
 INSERT 0 1
-studentdb=# INSERT INTO student VALUES(3,28,'Srinatha');
+studentdb= INSERT INTO student VALUES(3,28,'Srinatha');
 INSERT 0 1
