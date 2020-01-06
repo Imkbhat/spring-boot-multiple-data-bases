@@ -37,3 +37,8 @@ studentdb= INSERT INTO student VALUES(1,28,'Ravi');
 INSERT 0 1
 studentdb= INSERT INTO student VALUES(3,28,'Srinatha');
 INSERT 0 1
+
+
+Output:
+1. http://localhost:8080/student
+2. http://localhost:8080/school
