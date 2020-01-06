@@ -7,13 +7,13 @@ CREATE DATABASE schooldb;
 CREATE SCHEMA schooldb;
 
 
-schooldb= INSERT INTO school VALUES(1, 'Konandur', 'National Independent PU Science Residential School');
+schooldb=INSERT INTO school VALUES(1, 'Konandur', 'National Independent PU Science Residential School');
 INSERT 0 1
-schooldb= INSERT INTO school VALUES(2, 'MalaliMakki', 'Goverament High School, Malalimakki');
+schooldb=INSERT INTO school VALUES(2, 'MalaliMakki', 'Goverament High School, Malalimakki');
 INSERT 0 1
-schooldb= INSERT INTO school VALUES(3, 'Demlapure', 'Goverament School, Demlapure');
+schooldb=INSERT INTO school VALUES(3, 'Demlapure', 'Goverament School, Demlapure');
 INSERT 0 1
-===============================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------
 CREATE DATABASE studentdb;
 CREATE SCHEMA studentdb;
 
